@@ -1,4 +1,4 @@
-<p align="center"> ![alt text](assets/images/icon.png "Icon") </p>
+<p align="center"> <img src="assets/images/icon.png" /> </p>
 <h1 align="center">Welcome to ooima-js </h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
