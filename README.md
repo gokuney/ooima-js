@@ -1,1 +1,4 @@
-This is a baisc thing
+<h1> Installation </h1>
+
+Using dist 
+
