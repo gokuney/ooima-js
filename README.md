@@ -1,4 +1,5 @@
-<h1 align="center">Welcome to ooima-js 👋</h1>
+<p align="center"> ![Alt text](assets/images/icon.png?raw=true "Ooima.js") </p>
+<h1 align="center">Welcome to ooima-js </h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/gokuney/ooima-js#readme" target="_blank">
