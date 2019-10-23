@@ -1,0 +1,11 @@
+.ooima-list-item{
+    border:2px solid #eaeaea;
+    margin-top: 5px;
+    width: 300px;
+    height: 50px;
+    transition: all 0.3s linear;
+}
+
+.is--touched{
+    transform: scale(0.95);
+}
