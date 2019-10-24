@@ -18,7 +18,7 @@ class ooima {
         this.ooima_options = {
             listClassSelector: options.listClass || 'ooima-list-item',
             hotkey: typeof options.hotkey == 'string' ? HOTKEYS[options.hotkey] : options.hotkey,
-            selectedBG: options.selectedBgColor || "#00ff00",
+            selectedBG: options.selectedBG || "#00ff00",
             animation: options.animation ? `animated ${options.animation} infinite` : '',
             listStyle: options.listStyle ? Object.keys( options.listStyle ).map( x => `${x}: ${options.listStyle[x]}` ).join(" ;")+";" : '',
         };
