@@ -33,7 +33,7 @@ The bare basic setup requires passing just the element selector for the UL tag.
 const ooimaApp = new ooima('#ooima-list');
 ```
 
-<a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/gokuney/ooima-js/master/demo/index.html" target="_blank"> VIEW DEMO </a>
+<a href="https://gokuney.1mb.site/" target="_blank"> VIEW DEMO </a>
 
 <h1>Options</h1>
 The `ooima` constructor accepts an optional seconds parameter as JSON of settings. 
