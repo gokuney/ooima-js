@@ -29,7 +29,7 @@ The bare basic setup requires passing just the element selector for the UL tag.
 
 <h3>Javascript</h3>
 <blockquote>Ensure that the code is executed on body load/DOM ready</blockquote>
-```
+```javascript
 const ooimaApp = new ooima('#ooima-list');
 ```
 
