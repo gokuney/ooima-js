@@ -18,7 +18,9 @@ class ooima {
         this.ooima_options = {
             listClassSelector: options.listClass || 'ooima-list-item',
             hotkey: typeof options.hotkey == 'string' ? HOTKEYS[options.hotkey] : options.hotkey,
-            selectedBG: "#00ff00"
+            selectedBG: options.selectedBgColor || "#00ff00",
+            animation: options.animation ? `animated ${options.animation} infinite` : '',
+            listStyle: options.listStyle ? Object.keys( options.listStyle ).map( x => `${x}: ${options.listStyle[x]}` ).join(" ;")+";" : '',
         };
 
         //Check if required target element is defined
@@ -242,12 +244,12 @@ class ooima {
 
     }
 
-    choosenItems(value){
+    choosenItems(doms){
         
         let self = this;
 
 
-        if(value){
+        if(!doms){
             //return values' array only
             return self.$selectedItems.map(v => v.innerHTML)
         }
