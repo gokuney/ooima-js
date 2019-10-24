@@ -18,25 +18,11 @@
 
 > Bare basic multi touch list plugin 
 
-### 🏠 [Homepage](https://github.com/gokuney/ooima-js#readme)
-
-## Install
-
-```sh
-npm install
-```
+### 🏠 [Homepage](https://gokuney.github.io/ooima-js/)
 
 ## Usage
 
-```sh
-Include the js file and pass the ul DOM selector
-```
-
-## Run tests
-
-```sh
-npm run test
-```
+For usage and installation instruction visit <a href="https://gokuney.github.io/ooima-js/"> official project homepage </a>
 
 ## Author
 
