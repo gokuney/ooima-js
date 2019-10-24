@@ -247,15 +247,20 @@ class ooima {
     choosenItems(doms){
         
         let self = this;
+        alert(typeof doms)
 
 
         if(!doms){
-            //return values' array only
+
             return self.$selectedItems.map(v => v.innerHTML)
         }
 
-        //return li DOMS object
-        return self.$selectedItems;
+        if(typeof doms == "boolean"){
+            //return li DOMS object
+            return self.$selectedItems;
+        }
+
+        return self.$selectedItems.map( x => x.getAttribute(doms) )
         
     }
 
