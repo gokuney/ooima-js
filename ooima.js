@@ -119,8 +119,10 @@ class ooima {
             self.touchHighlight(false);
         });
 
-        // document.addEventListener('touchstart', self.pressedDown);
-        // document.addEventListener('touchend', self.pressedDown);
+        document.addEventListener('touchstart', function(){ self.pressedDown(self); });
+        document.addEventListener('touchend', function(){ self.pressedUp(self); });
+
+        
 
     }
 
