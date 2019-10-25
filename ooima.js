@@ -249,8 +249,6 @@ class ooima {
     choosenItems(doms){
         
         let self = this;
-        alert(typeof doms)
-
 
         if(!doms){
 
